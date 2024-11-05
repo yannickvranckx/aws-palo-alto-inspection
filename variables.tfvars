@@ -1,7 +1,7 @@
 aws_region                       = "eu-west-3"
 vpc_cidr_main                    = "10.198.9.0/24"
 vpc_cidr_secondary               = "100.64.0.0/16"
-vpc_name                         = "vpc-euw3-firewall"
+vpc_name                         = "vpc_name"
 tgw_subnets                      = ["100.64.0.0/28", "100.64.0.16/28"]
 tgw_subnets_tags                 = ["subnet-euw3-private-tgw-a", "subnet-euw3-private-tgw-b"]
 gwlb_subnets_endpoint            = ["100.64.0.48/28", "100.64.0.64/28"]
